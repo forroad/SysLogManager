@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
 namespace Ui {
 class MainWindow;
 }
@@ -17,6 +16,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    void InitMessageFind();
 };
 
 #endif // MAINWINDOW_H
